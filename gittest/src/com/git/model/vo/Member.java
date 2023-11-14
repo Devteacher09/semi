@@ -39,5 +39,11 @@ public class Member {
 	public void setMemberName(String memberName) {
 		this.memberName = memberName;
 	}
+
+	@Override
+	public String toString() {
+		return "Member [memberId=" + memberId + ", memberPwd=" + memberPwd + ", memberName=" + memberName + "]";
+	}
+	
 	
 }
