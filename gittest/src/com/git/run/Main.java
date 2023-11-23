@@ -16,5 +16,7 @@ public class Main {
 		System.out.println(title+"이건 어떻게 수정?");
 
 		
+		System.out.println("jenkins왜 아뇌니?");
+		
 	}
 }
